@@ -15,10 +15,12 @@ You can create coursera-dl.conf in the folder where you want to download a cours
     --cauth <cookie content>
     --subtitle-language en,zh-CN|zh-TW
     --download-quizzes
-    #Without cauth, you can't run the script successfully. To get cauth, login to coursera, then click on the lock symbol to the left of you address bar.
-    #There, click on cookies, then coursera.org/Cookies/CAUTH. After clicking CAUTH, you can see the content field. Click on it and then use Ctrl+A to select
-    #the complete content, if you don't use select all, you may end up copying just a little bit of it. Paste this in the --cauth field.
 ```
+Without cauth, you can't run the script successfully.\ 
+To get cauth, login to coursera, then click on the lock symbol to the left of you address bar.\
+There, click on cookies, then coursera.org/Cookies/CAUTH. After clicking CAUTH, you can see the content field.\
+Click on it and then use Ctrl+A to select the complete content.\
+If you don't use select all, you may end up copying just a little bit of it. Paste this in the --cauth field.
 
 - [Coursera Downloader](#coursera-downloader)
 - [Introduction](#introduction)
