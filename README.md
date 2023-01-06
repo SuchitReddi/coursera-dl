@@ -13,7 +13,7 @@ You can create coursera-dl.conf in the folder where you want to download a cours
     --username <user>
     --password <pass>
     --cauth <cookie content>
-    --subtitle-language en,zh-CN|zh-TW
+    --subtitle-language <en,fr>
     --download-quizzes
 ```
 Without cauth, you can't run the script successfully.\ 
