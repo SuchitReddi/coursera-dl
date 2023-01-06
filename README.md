@@ -7,6 +7,18 @@
 [![Code Climate](https://codeclimate.com/github/coursera-dl/coursera-dl/badges/gpa.svg)](https://codeclimate.com/github/coursera-dl/coursera-dl)
 
 <!-- TOC -->
+**Note:** The original script failed without CAUTH, so I am adding the process to obtain the CAUTH value and where to add it.
+You can create coursera-dl.conf in the folder where you want to download a course. Then add:
+```
+    --username <user>
+    --password <pass>
+    --cauth <cookie content>
+    --subtitle-language en,zh-CN|zh-TW
+    --download-quizzes
+    #Without cauth, you can't run the script successfully. To get cauth, login to coursera, then click on the lock symbol to the left of you address bar.
+    #There, click on cookies, then coursera.org/Cookies/CAUTH. After clicking CAUTH, you can see the content field. Click on it and then use Ctrl+A to select
+    #the complete content, if you don't use select all, you may end up copying just a little bit of it. Paste this in the --cauth field.
+```
 
 - [Coursera Downloader](#coursera-downloader)
 - [Introduction](#introduction)
