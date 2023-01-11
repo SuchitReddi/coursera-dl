@@ -16,11 +16,15 @@ You can create coursera-dl.conf in the folder where you want to download a cours
     --subtitle-language <en,fr>
     --download-quizzes
 ```
-Without cauth, you can't run the script successfully.\ 
-To get cauth, login to coursera, then click on the lock symbol to the left of you address bar.\
-There, click on cookies, then coursera.org/Cookies/CAUTH. After clicking CAUTH, you can see the content field.\
-Click on it and then use Ctrl+A to select the complete content.\
+Without cauth, you can't run the script successfully.
+To get cauth, login to coursera, then click on the lock symbol to the left of you address bar.
+There, click on cookies, then coursera.org/Cookies/CAUTH. After clicking CAUTH, you can see the content field.
+Click on it and then use Ctrl+A to select the complete content.
 If you don't use select all, you may end up copying just a little bit of it. Paste this in the --cauth field.
+
+The basic command to download the course is `coursera-dl <course name>`
+
+The course name must be exactly this part of the coursera url, `https://in.coursera.org/learn/<course name>/home/week/1`
 
 - [Coursera Downloader](#coursera-downloader)
 - [Introduction](#introduction)
